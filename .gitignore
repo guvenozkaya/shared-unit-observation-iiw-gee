@@ -45,3 +45,6 @@ scripts/08_run_full_8000_reproduction (2).R
 scripts/08_run_full_8000_reproduction.R.bak_before_v10_2
 scripts/08_run_full_8000_reproduction_PATCHED_v10_1.R
 run_B5H_final_isolation_and_release_audit.R
+
+# Row-level real-data derivative: generated locally but not distributed
+results/realdata_primary/stage56_observed_row_weights.csv
