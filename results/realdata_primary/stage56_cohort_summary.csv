@@ -1,0 +1,12 @@
+"metric","value"
+"primary_horizon_days",365
+"eligible_patients",1962
+"eligible_eyes",2612
+"baseline_rows",2612
+"postbaseline_visits",18046
+"bilateral_patients",650
+"bilateral_shared_only_patients",305
+"bilateral_hybrid_patients",345
+"shared_postbaseline_rows",5194
+"eye_specific_postbaseline_rows",12852
+"observed_mean_baseline_va",60.9800918836141

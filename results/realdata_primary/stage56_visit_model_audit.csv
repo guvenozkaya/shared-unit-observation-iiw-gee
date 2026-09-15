@@ -1,0 +1,7 @@
+"model","converged","n_risk_rows","same_visit_leakage_absent","history_rule_pass","formula","warnings"
+"M9_denominator",TRUE,953380,TRUE,TRUE,"observed_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + design_stratum + last_va + last_inj_num +      last_inj_given + gap_days",""
+"M9_numerator",TRUE,953380,TRUE,TRUE,"observed_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + design_stratum",""
+"M10_M11_eye_denominator",TRUE,729816,TRUE,TRUE,"eye_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + last_va + last_inj_num + last_inj_given +      gap_days",""
+"M10_M11_eye_numerator",TRUE,729816,TRUE,TRUE,"eye_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2)",""
+"M10_M11_shared_denominator",TRUE,237250,TRUE,TRUE,"shared_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + last_patient_mean + last_patient_inj_num +      last_patient_inj_given + gap_patient_mean",""
+"M10_M11_shared_numerator",TRUE,237250,TRUE,TRUE,"shared_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2)",""

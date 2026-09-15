@@ -1,0 +1,97 @@
+"model","converged","n_risk_rows","expected_interaction","interaction_rule_pass","formula","scenario_id","replicate","seed"
+"M9_denominator",TRUE,731460,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_B_N",1,20560001
+"M9_numerator",TRUE,731460,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_B_N",1,20560001
+"M10_M11_eye_denominator",TRUE,535970,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_B_N",1,20560001
+"M10_M11_eye_numerator",TRUE,535970,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_B_N",1,20560001
+"M10_M11_shared_denominator",TRUE,183960,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_B_N",1,20560001
+"M10_M11_shared_numerator",TRUE,183960,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_B_N",1,20560001
+"M9_denominator",TRUE,738030,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_B_N",2,20560002
+"M9_numerator",TRUE,738030,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_B_N",2,20560002
+"M10_M11_eye_denominator",TRUE,538230,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_B_N",2,20560002
+"M10_M11_eye_numerator",TRUE,538230,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_B_N",2,20560002
+"M10_M11_shared_denominator",TRUE,190530,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_B_N",2,20560002
+"M10_M11_shared_numerator",TRUE,190530,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_B_N",2,20560002
+"M9_denominator",TRUE,719415,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_B_A",1,20660001
+"M9_numerator",TRUE,719415,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_B_A",1,20660001
+"M10_M11_eye_denominator",TRUE,537069,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_B_A",1,20660001
+"M10_M11_eye_numerator",TRUE,537069,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_B_A",1,20660001
+"M10_M11_shared_denominator",TRUE,171915,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_B_A",1,20660001
+"M10_M11_shared_numerator",TRUE,171915,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_B_A",1,20660001
+"M9_denominator",TRUE,732555,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_B_A",2,20660002
+"M9_numerator",TRUE,732555,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_B_A",2,20660002
+"M10_M11_eye_denominator",TRUE,556693,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_B_A",2,20660002
+"M10_M11_eye_numerator",TRUE,556693,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_B_A",2,20660002
+"M10_M11_shared_denominator",TRUE,185055,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_B_A",2,20660002
+"M10_M11_shared_numerator",TRUE,185055,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_B_A",2,20660002
+"M9_denominator",TRUE,722700,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_SH_N",1,20760001
+"M9_numerator",TRUE,722700,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_SH_N",1,20760001
+"M10_M11_eye_denominator",TRUE,555750,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_SH_N",1,20760001
+"M10_M11_eye_numerator",TRUE,555750,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_SH_N",1,20760001
+"M10_M11_shared_denominator",TRUE,175200,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_SH_N",1,20760001
+"M10_M11_shared_numerator",TRUE,175200,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_SH_N",1,20760001
+"M9_denominator",TRUE,738030,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_SH_N",2,20760002
+"M9_numerator",TRUE,738030,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_SH_N",2,20760002
+"M10_M11_eye_denominator",TRUE,540584,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_SH_N",2,20760002
+"M10_M11_eye_numerator",TRUE,540584,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_SH_N",2,20760002
+"M10_M11_shared_denominator",TRUE,190530,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_SH_N",2,20760002
+"M10_M11_shared_numerator",TRUE,190530,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_SH_N",2,20760002
+"M9_denominator",TRUE,751170,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_SH_A",1,20860001
+"M9_numerator",TRUE,751170,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_SH_A",1,20860001
+"M10_M11_eye_denominator",TRUE,539972,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_SH_A",1,20860001
+"M10_M11_eye_numerator",TRUE,539972,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_SH_A",1,20860001
+"M10_M11_shared_denominator",TRUE,203670,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_SH_A",1,20860001
+"M10_M11_shared_numerator",TRUE,203670,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_SH_A",1,20860001
+"M9_denominator",TRUE,710655,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VD_SH_A",2,20860002
+"M9_numerator",TRUE,710655,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VD_SH_A",2,20860002
+"M10_M11_eye_denominator",TRUE,526701,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VD_SH_A",2,20860002
+"M10_M11_eye_numerator",TRUE,526701,"",TRUE,"eye_event ~ group + time + I(time^2)","VD_SH_A",2,20860002
+"M10_M11_shared_denominator",TRUE,163155,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VD_SH_A",2,20860002
+"M10_M11_shared_numerator",TRUE,163155,"",TRUE,"shared_event ~ group + time + I(time^2)","VD_SH_A",2,20860002
+"M9_denominator",TRUE,701895,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_B_N",1,20960001
+"M9_numerator",TRUE,701895,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_B_N",1,20960001
+"M10_M11_eye_denominator",TRUE,539341,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_B_N",1,20960001
+"M10_M11_eye_numerator",TRUE,539341,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_B_N",1,20960001
+"M10_M11_shared_denominator",TRUE,154395,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_B_N",1,20960001
+"M10_M11_shared_numerator",TRUE,154395,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_B_N",1,20960001
+"M9_denominator",TRUE,722700,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_B_N",2,20960002
+"M9_numerator",TRUE,722700,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_B_N",2,20960002
+"M10_M11_eye_denominator",TRUE,566578,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_B_N",2,20960002
+"M10_M11_eye_numerator",TRUE,566578,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_B_N",2,20960002
+"M10_M11_shared_denominator",TRUE,175200,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_B_N",2,20960002
+"M10_M11_shared_numerator",TRUE,175200,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_B_N",2,20960002
+"M9_denominator",TRUE,732555,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_B_A",1,21060001
+"M9_numerator",TRUE,732555,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_B_A",1,21060001
+"M10_M11_eye_denominator",TRUE,569711,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_B_A",1,21060001
+"M10_M11_eye_numerator",TRUE,569711,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_B_A",1,21060001
+"M10_M11_shared_denominator",TRUE,185055,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_B_A",1,21060001
+"M10_M11_shared_numerator",TRUE,185055,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_B_A",1,21060001
+"M9_denominator",TRUE,739125,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_B_A",2,21060002
+"M9_numerator",TRUE,739125,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_B_A",2,21060002
+"M10_M11_eye_denominator",TRUE,550175,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_B_A",2,21060002
+"M10_M11_eye_numerator",TRUE,550175,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_B_A",2,21060002
+"M10_M11_shared_denominator",TRUE,191625,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_B_A",2,21060002
+"M10_M11_shared_numerator",TRUE,191625,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_B_A",2,21060002
+"M9_denominator",TRUE,721605,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_SH_N",1,21160001
+"M9_numerator",TRUE,721605,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_SH_N",1,21160001
+"M10_M11_eye_denominator",TRUE,563589,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_SH_N",1,21160001
+"M10_M11_eye_numerator",TRUE,563589,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_SH_N",1,21160001
+"M10_M11_shared_denominator",TRUE,174105,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_SH_N",1,21160001
+"M10_M11_shared_numerator",TRUE,174105,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_SH_N",1,21160001
+"M9_denominator",TRUE,730365,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_SH_N",2,21160002
+"M9_numerator",TRUE,730365,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_SH_N",2,21160002
+"M10_M11_eye_denominator",TRUE,522247,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_SH_N",2,21160002
+"M10_M11_eye_numerator",TRUE,522247,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_SH_N",2,21160002
+"M10_M11_shared_denominator",TRUE,182865,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_SH_N",2,21160002
+"M10_M11_shared_numerator",TRUE,182865,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_SH_N",2,21160002
+"M9_denominator",TRUE,727080,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_SH_A",1,21260001
+"M9_numerator",TRUE,727080,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_SH_A",1,21260001
+"M10_M11_eye_denominator",TRUE,546998,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_SH_A",1,21260001
+"M10_M11_eye_numerator",TRUE,546998,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_SH_A",1,21260001
+"M10_M11_shared_denominator",TRUE,179580,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_SH_A",1,21260001
+"M10_M11_shared_numerator",TRUE,179580,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_SH_A",1,21260001
+"M9_denominator",TRUE,709560,"group:last_y",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum +      last_y + group:last_y","VS_SH_A",2,21260002
+"M9_numerator",TRUE,709560,"",TRUE,"observed_event ~ group + time + I(time^2) + design_stratum","VS_SH_A",2,21260002
+"M10_M11_eye_denominator",TRUE,544992,"group:last_y",TRUE,"eye_event ~ group + time + I(time^2) + last_y + group:last_y","VS_SH_A",2,21260002
+"M10_M11_eye_numerator",TRUE,544992,"",TRUE,"eye_event ~ group + time + I(time^2)","VS_SH_A",2,21260002
+"M10_M11_shared_denominator",TRUE,162060,"group:last_patient_mean",TRUE,"shared_event ~ group + time + I(time^2) + last_patient_mean +      group:last_patient_mean","VS_SH_A",2,21260002
+"M10_M11_shared_numerator",TRUE,162060,"",TRUE,"shared_event ~ group + time + I(time^2)","VS_SH_A",2,21260002

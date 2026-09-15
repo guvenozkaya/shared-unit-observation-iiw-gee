@@ -1,0 +1,6 @@
+"relative_path","bytes","algorithm","hash"
+"stage48_completion_audit.csv",494,"SHA256","38c546262425e7058c31aa5be2abff31c97a14aea0421a158d7d24d8e6f063f7"
+"stage48_final_production_summary_object.rds",8998,"SHA256","785724d49e9eb9b3405331601c125c9dc4c1ce48787461160ac13f44ca963c60"
+"stage48_performance_summary.csv",13173,"SHA256","4b076afaafca9ab4294215d0d5395b85645942de8edfb6bde17e0d27d5ce672b"
+"stage48_seed_audit.csv",109,"SHA256","78fd427451c0d9e4e9533c78b95e26cb286f4b26cc298194998a165f6c511b1f"
+"stage48_weight_summary.csv",5048,"SHA256","4938a60d7eb76933264fd604e9927df8160adb29a819b938996b24cf20aac058"

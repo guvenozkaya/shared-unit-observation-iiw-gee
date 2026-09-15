@@ -1,0 +1,9 @@
+"field","unchanged","maximum_absolute_difference"
+"scenario_id",TRUE,NA
+"mechanism",TRUE,NA
+"structure",TRUE,NA
+"parameter_source",TRUE,NA
+"true_beta3",TRUE,0
+"gamma_control",TRUE,0
+"gamma_treatment",TRUE,0
+"total_rate",TRUE,0.000400000000000844

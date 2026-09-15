@@ -1,0 +1,5 @@
+source(file.path("R", "repo_utils.R"))
+root <- repo_root()
+out <- file.path(root, "config", "sessionInfo.txt")
+capture.output(sessionInfo(), file = out)
+cat("Saved:", out, "\n")

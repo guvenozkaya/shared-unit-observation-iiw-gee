@@ -1,0 +1,350 @@
+B-5F STAGE56 LOCAL REAL-DATA REPRODUCTION
+Started: 2026-09-13 20:42:12 
+
+INPUT FILE CHECK
+Stage55 RDS: TRUE 
+DMO CSV: TRUE 
+
+SOFTWARE CHECK
+R version: R version 4.6.1 (2026-06-24 ucrt) 
+geepack: 1.3.13 
+
+RUNNING FROZEN STAGE56 PRIMARY APPLICATION
+
+STAGE 56 FROZEN REAL-DATA APPLICATION IMPLEMENTATION
+Stage 55 approved freeze: YES
+Statistical redesign allowed: NO
+Outcome-driven variable selection allowed: NO
+Causal treatment-effect interpretation allowed: NO
+Primary horizon: 365 days
+Methods fitted: M8-M11 only
+M12 real-data fit: NO
+Sensitivity analyses in this stage: NO
+
+Building frozen daily visit-risk sets...
+Fitting frozen M9 single-process visit model...
+Fitting frozen M10/M11 two-process visit models...
+Fitting frozen M8-M11 outcome GEE models...
+
+STAGE 56 COHORT SUMMARY
+                         metric      value
+           primary_horizon_days   365.0000
+              eligible_patients  1962.0000
+                  eligible_eyes  2612.0000
+                  baseline_rows  2612.0000
+            postbaseline_visits 18046.0000
+             bilateral_patients   650.0000
+ bilateral_shared_only_patients   305.0000
+      bilateral_hybrid_patients   345.0000
+       shared_postbaseline_rows  5194.0000
+ eye_specific_postbaseline_rows 12852.0000
+      observed_mean_baseline_va    60.9801
+
+STAGE 56 VISIT-STRUCTURE SUMMARY
+             structure patients fraction
+      bilateral_hybrid      345 0.175841
+ bilateral_shared_only      305 0.155454
+            unilateral     1312 0.668705
+
+STAGE 56 RISK-SET SUMMARY
+       risk_set   rows events
+      M9_single 953380  18046
+    M10_M11_eye 729816  12852
+ M10_M11_shared 237250   2597
+    M11_all_eye 953380  18046
+
+STAGE 56 VISIT-MODEL AUDIT
+                      model converged
+             M9_denominator      TRUE
+               M9_numerator      TRUE
+    M10_M11_eye_denominator      TRUE
+      M10_M11_eye_numerator      TRUE
+ M10_M11_shared_denominator      TRUE
+   M10_M11_shared_numerator      TRUE
+ n_risk_rows same_visit_leakage_absent
+      953380                      TRUE
+      953380                      TRUE
+      729816                      TRUE
+      729816                      TRUE
+      237250                      TRUE
+      237250                      TRUE
+ history_rule_pass
+              TRUE
+              TRUE
+              TRUE
+              TRUE
+              TRUE
+              TRUE
+                                                                                                                                                                            formula
+                observed_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + design_stratum + last_va + last_inj_num +      last_inj_given + gap_days
+                                                                          observed_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + design_stratum
+                                      eye_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + last_va + last_inj_num + last_inj_given +      gap_days
+                                                                                                eye_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2)
+ shared_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2) + last_patient_mean + last_patient_inj_num +      last_patient_inj_given + gap_patient_mean
+                                                                                             shared_event ~ baseline_va + gender + baseline_age + ethnicity +      time + I(time^2)
+ warnings
+         
+         
+         
+         
+         
+         
+
+STAGE 56 WEIGHT DIAGNOSTICS
+                           method  minimum
+        M9_single_process_IIW_GEE 0.745231
+ M10_separate_two_process_IIW_GEE 0.710591
+ M11_combined_two_process_IIW_GEE 0.714911
+      q01   median     q99 maximum  raw_q01
+ 0.745319 0.970923 1.31933 1.31942 0.745492
+ 0.710619 0.972089 1.52048 1.52048 0.710909
+ 0.714911 0.969354 1.47886 1.47886 0.716361
+ raw_q99 raw_maximum    mean
+ 1.31988     1.65246 1.00005
+ 1.52116     2.01125 1.00006
+ 1.48186     2.01125 1.00029
+ effective_sample_size effective_sample_fraction
+               17786.6                  0.985628
+               17650.4                  0.978079
+               17675.8                  0.979487
+ fraction_truncated
+          0.0199490
+          0.0198936
+          0.0198382
+
+STAGE 56 OUTCOME FIT SUMMARY
+                           method converged
+         M8_patient_clustered_GEE      TRUE
+        M9_single_process_IIW_GEE      TRUE
+ M10_separate_two_process_IIW_GEE      TRUE
+ M11_combined_two_process_IIW_GEE      TRUE
+ n_records n_patients n_eyes runtime_seconds
+     18046       1962   2612            0.21
+     18046       1962   2612            0.21
+     18046       1962   2612            0.18
+     18046       1962   2612            0.19
+ failure_reason warnings
+                        
+                        
+                        
+                        
+
+STAGE 56 PRIMARY / PRESPECIFIED MARGINAL ESTIMATES
+ method                             estimand day
+     M8                   marginal_VA_day_90  90
+     M8                  marginal_VA_day_180 180
+     M8                  marginal_VA_day_365 365
+     M8 E1_PRIMARY_change_baseline_to_day365 365
+     M9                   marginal_VA_day_90  90
+     M9                  marginal_VA_day_180 180
+     M9                  marginal_VA_day_365 365
+     M9 E1_PRIMARY_change_baseline_to_day365 365
+    M10                   marginal_VA_day_90  90
+    M10                  marginal_VA_day_180 180
+    M10                  marginal_VA_day_365 365
+    M10 E1_PRIMARY_change_baseline_to_day365 365
+    M11                   marginal_VA_day_90  90
+    M11                  marginal_VA_day_180 180
+    M11                  marginal_VA_day_365 365
+    M11 E1_PRIMARY_change_baseline_to_day365 365
+ estimate std_error ci_lower ci_upper
+ 65.94304  0.199981 65.55108 66.33500
+ 66.44836  0.238052 65.98178 66.91495
+ 65.99248  0.381400 65.24493 66.74002
+  5.01238  0.381400  4.26484  5.75993
+ 65.94400  0.200140 65.55173 66.33628
+ 66.41918  0.240463 65.94787 66.89049
+ 66.08721  0.378546 65.34526 66.82916
+  5.10712  0.378546  4.36517  5.84907
+ 65.98040  0.199856 65.58868 66.37212
+ 66.43649  0.241977 65.96221 66.91076
+ 66.12531  0.381094 65.37836 66.87225
+  5.14521  0.381094  4.39827  5.89216
+ 65.97762  0.200009 65.58560 66.36963
+ 66.43449  0.242663 65.95887 66.91011
+ 66.11624  0.380236 65.37098 66.86151
+  5.13615  0.380236  4.39089  5.88141
+ observed_mean_baseline_va
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+                   60.9801
+
+STAGE 56 FINAL AUDIT
+                                     check pass
+                              stage55_pass TRUE
+                       primary_horizon_365 TRUE
+             realdata_methods_exact_M8_M11 TRUE
+                         M12_not_available TRUE
+                  source_has_1964_patients TRUE
+                      source_has_2614_eyes TRUE
+                   source_has_40281_visits TRUE
+             one_baseline_per_eligible_eye TRUE
+            primary_has_2612_eligible_eyes TRUE
+        primary_has_1962_eligible_patients TRUE
+             no_duplicate_eligible_eye_day TRUE
+          all_baseline_covariates_complete TRUE
+                     all_outcomes_complete TRUE
+                     shared_visits_present TRUE
+         hybrid_bilateral_patients_present TRUE
+                source_md5_matches_stage55 TRUE
+  no_zero_length_column_names_after_import TRUE
+                visit_models_all_converged TRUE
+     visit_model_same_visit_leakage_absent TRUE
+            visit_model_history_rules_pass TRUE
+                 M9_weight_positive_finite TRUE
+                M10_weight_positive_finite TRUE
+                M11_weight_positive_finite TRUE
+       outcome_models_M8_M11_all_converged TRUE
+ primary_estimand_has_exactly_four_methods TRUE
+               primary_estimand_all_finite TRUE
+             secondary_timepoints_complete TRUE
+                            M12_not_fitted TRUE
+           primary_truncation_exactly_1_99 TRUE
+
+Stage 56 decision: PASS -- FROZEN REAL-DATA APPLICATION IMPLEMENTED 
+IMPORTANT: Estimate magnitudes or M8-M11 differences are NOT PASS criteria. Do not retune the frozen visit or outcome models after inspecting these results.
+Stage 56 primary real-data application rerun: PASS.
+Output directory: C:/Users/O/OneDrive/Desktop/shared-unit-observation-iiw-gee_scaffold/results/realdata_primary 
+
+BUILDING PRIMARY PUBLICATION OUTPUTS
+V10–V12 PASS: primary real-data cohort and Stage 56 audit.
+Generated Table 3, Figure 3, and primary panels for Supplementary Table S5.
+
+UPDATING SUPPLEMENTARY S5-S6
+Stage49 exploratory evidence: PASS.
+Stage57 sensitivity evidence: PASS.
+Generated Table S4, Table S5A, Table S5B, and Table S6.
+
+OUTPUT FILE CHECK
+PASS  results/realdata_primary/stage56_final_audit.csv
+PASS  results/realdata_primary/stage56_cohort_summary.csv
+PASS  results/realdata_primary/stage56_marginal_estimates.csv
+PASS  results/realdata_primary/stage56_marginal_trajectory_0_365.csv
+PASS  results/realdata_primary/stage56_visit_model_audit.csv
+PASS  results/realdata_primary/stage56_weight_diagnostics.csv
+PASS  tables/Table3_primary_realdata_estimates.csv
+PASS  figures/Figure3_primary_realdata_trajectory.pdf
+PASS  figures/Figure3_primary_realdata_trajectory.png
+PASS  tables/TableS5A_visit_model_diagnostics.csv
+PASS  tables/TableS5B_weight_diagnostics.csv
+PASS  tables/TableS6_realdata_sensitivity_day365.csv
+
+PRIMARY NUMERICAL CHECK
+   method estimate std_error ci_lower ci_upper
+4      M8 5.012385 0.3814003 4.264840 5.759929
+8      M9 5.107116 0.3785456 4.365166 5.849065
+12    M10 5.145215 0.3810938 4.398271 5.892159
+16    M11 5.136150 0.3802364 4.390887 5.881414
+
+FINAL STAGE56 AUDIT
+                                       check
+1                               stage55_pass
+2                        primary_horizon_365
+3              realdata_methods_exact_M8_M11
+4                          M12_not_available
+5                   source_has_1964_patients
+6                       source_has_2614_eyes
+7                    source_has_40281_visits
+8              one_baseline_per_eligible_eye
+9             primary_has_2612_eligible_eyes
+10        primary_has_1962_eligible_patients
+11             no_duplicate_eligible_eye_day
+12          all_baseline_covariates_complete
+13                     all_outcomes_complete
+14                     shared_visits_present
+15         hybrid_bilateral_patients_present
+16                source_md5_matches_stage55
+17  no_zero_length_column_names_after_import
+18                visit_models_all_converged
+19     visit_model_same_visit_leakage_absent
+20            visit_model_history_rules_pass
+21                 M9_weight_positive_finite
+22                M10_weight_positive_finite
+23                M11_weight_positive_finite
+24       outcome_models_M8_M11_all_converged
+25 primary_estimand_has_exactly_four_methods
+26               primary_estimand_all_finite
+27             secondary_timepoints_complete
+28                            M12_not_fitted
+29           primary_truncation_exactly_1_99
+   pass
+1  TRUE
+2  TRUE
+3  TRUE
+4  TRUE
+5  TRUE
+6  TRUE
+7  TRUE
+8  TRUE
+9  TRUE
+10 TRUE
+11 TRUE
+12 TRUE
+13 TRUE
+14 TRUE
+15 TRUE
+16 TRUE
+17 TRUE
+18 TRUE
+19 TRUE
+20 TRUE
+21 TRUE
+22 TRUE
+23 TRUE
+24 TRUE
+25 TRUE
+26 TRUE
+27 TRUE
+28 TRUE
+29 TRUE
+
+SESSION INFO
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8 
+[2] LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: Europe/Istanbul
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils    
+[5] datasets  methods   base     
+
+loaded via a namespace (and not attached):
+ [1] backports_1.5.1  tidyr_1.3.2     
+ [3] R6_2.6.1         tidyselect_1.2.1
+ [5] magrittr_2.0.5   splines_4.6.1   
+ [7] glue_1.8.1       tibble_3.3.1    
+ [9] pkgconfig_2.0.3  dplyr_1.2.1     
+[11] generics_0.1.4   stats4_4.6.1    
+[13] lifecycle_1.0.5  cli_3.6.6       
+[15] vctrs_0.7.3      compiler_4.6.1  
+[17] purrr_1.2.2      tools_4.6.1     
+[19] broom_1.0.13     pillar_1.11.1   
+[21] geepack_1.3.13   rlang_1.3.0     
+[23] MASS_7.3-65     
+
+B-5F COMPLETED SUCCESSFULLY

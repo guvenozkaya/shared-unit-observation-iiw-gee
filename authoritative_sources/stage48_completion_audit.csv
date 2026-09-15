@@ -1,0 +1,12 @@
+"check","pass"
+"stage46_freeze_still_valid",TRUE
+"stage46_seed_manifest_still_valid",TRUE
+"frozen_artifact_hashes_still_unchanged",TRUE
+"required_packages_still_available",TRUE
+"pre_run_generated_seed_manifest_exact_match",TRUE
+"dataset_status_rows_equal_8000",TRUE
+"method_result_rows_equal_40000",TRUE
+"five_frozen_methods_present_per_dataset",TRUE
+"performance_summary_has_40_cells",TRUE
+"stage44_seed_audit_8000_unique",TRUE
+"result_seed_manifest_exact_match_if_available",TRUE

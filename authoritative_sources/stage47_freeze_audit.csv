@@ -1,0 +1,12 @@
+"check","pass"
+"freeze_object_version",TRUE
+"freeze_object_stage46_pass",TRUE
+"design_version",TRUE
+"scenario_count",TRUE
+"replicates_per_scenario",TRUE
+"total_datasets",TRUE
+"n_patient",TRUE
+"method_count",TRUE
+"workers",TRUE
+"batch_size",TRUE
+"dgm_recalibration_prohibited",TRUE

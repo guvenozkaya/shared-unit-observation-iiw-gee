@@ -1,0 +1,5 @@
+"method","converged","n_records","n_patients","n_eyes","runtime_seconds","failure_reason","warnings"
+"M8_patient_clustered_GEE",TRUE,18046,1962,2612,0.210000000000036,"",""
+"M9_single_process_IIW_GEE",TRUE,18046,1962,2612,0.210000000000036,"",""
+"M10_separate_two_process_IIW_GEE",TRUE,18046,1962,2612,0.180000000000064,"",""
+"M11_combined_two_process_IIW_GEE",TRUE,18046,1962,2612,0.190000000000055,"",""

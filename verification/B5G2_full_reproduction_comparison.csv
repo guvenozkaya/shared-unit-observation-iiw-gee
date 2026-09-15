@@ -1,0 +1,4 @@
+"object","pass","tolerance","max_numeric_diff","detail"
+"stage48_performance_summary",TRUE,1e-08,2.1316282072803e-14,"equivalent"
+"stage48_weight_summary",TRUE,1e-08,4.61852778244065e-14,"equivalent"
+"stage48_seed_audit",TRUE,0,0,"equivalent"

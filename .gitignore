@@ -1,0 +1,47 @@
+data/raw/
+*.Rhistory
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+checkpoints/
+tmp/
+temp/
+logs/
+*.tmp
+stage34_main_simulation_launcher.R
+r_code_for_analysis.R
+*.Rproj
+.vscode/
+.idea/
+
+# Local-only large fitted model object; not required in public GitHub release
+results/realdata_primary/stage56_compact_visit_models.rds
+
+# Local development/release-engineering artifacts
+.Ruserdata
+*.bak_B5I1b
+*.bak_B5I2A
+run_B5I1a_blocker_diagnostics.R
+run_B5I1b_release_cleanup.R
+run_B5I2A_git_init_and_dry_run_audit.R
+results/**/stage44_checkpoint.rds
+results/**/stage56_compact_visit_models.rds
+
+# Local-only Stage49 checkpoint; not part of public reproducibility release
+results/**/stage49_checkpoint.rds
+
+# Local-only GitHub release engineering artifacts
+run_B5I*.R
+verification/B5I*.csv
+verification/B5I*.txt
+verification/B5H_FINAL_ISOLATION_AND_RELEASE_AUDIT.txt
+*.bak_B5I*
+
+# Local/debug artifacts excluded from the public reproducibility snapshot
+results/stage49_isolation_runtime_smoke/
+scripts/08_run_full_8000_reproduction (2).R
+scripts/08_run_full_8000_reproduction.R.bak_before_v10_2
+scripts/08_run_full_8000_reproduction_PATCHED_v10_1.R
+run_B5H_final_isolation_and_release_audit.R

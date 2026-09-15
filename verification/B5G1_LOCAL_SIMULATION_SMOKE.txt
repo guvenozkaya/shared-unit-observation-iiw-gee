@@ -1,0 +1,484 @@
+B-5G-1 LOCAL SIMULATION SMOKE
+Started: 2026-09-13 20:55:17 
+
+B-5G-1 PRODUCTION-SEED 16-DATASET SMOKE
+Manifest: C:/Users/O/OneDrive/Desktop/shared-unit-observation-iiw-gee_scaffold/authoritative_sources/stage42_frozen_var_manifest.csv 
+Seed base: 20460000
+Replicates/scenario: 2
+Scenarios: 8
+Total datasets/run: 16
+Serial workers: 1
+Parallel workers: 4
+
+RUN 1/2: SERIAL
+
+STAGE 44 VAR PERFORMANCE-PIPELINE PILOT
+Frozen DGM recalibration allowed: NO
+Performance estimates used for DGM selection: NO
+Scenarios: 8 
+Replicates per scenario: 2 
+Total planned datasets: 16 
+Patients per replicate: 500 
+Workers: 1 
+Already checkpointed: 0 
+Pending: 16 
+
+Stage 44 batch 1/2 -- jobs 8
+Stage 44 batch 2/2 -- jobs 8
+
+STAGE 44 TECHNICAL READINESS
+ scenario_id datasets_attempted datasets_passed dataset_pass_rate method_cells_present minimum_method_convergence
+      VD_B_A                  2               2                 1                    5                          1
+      VD_B_N                  2               2                 1                    5                          1
+     VD_SH_A                  2               2                 1                    5                          1
+     VD_SH_N                  2               2                 1                    5                          1
+      VS_B_A                  2               2                 1                    5                          1
+      VS_B_N                  2               2                 1                    5                          1
+     VS_SH_A                  2               2                 1                    5                          1
+     VS_SH_N                  2               2                 1                    5                          1
+ performance_metrics_complete scenario_pass
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+
+STAGE 44 PERFORMANCE SUMMARY -- PILOT / DESCRIPTIVE ONLY
+ scenario_id mechanism structure true_beta3                           method attempted successful convergence_rate mean_estimate
+      VD_B_A        VD         B        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.20523812
+      VD_B_A        VD         B        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.20391180
+      VD_B_A        VD         B        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.20176911
+      VD_B_A        VD         B        0.2         M8_patient_clustered_GEE         2          2                1    0.15563319
+      VD_B_A        VD         B        0.2        M9_single_process_IIW_GEE         2          2                1    0.20509101
+      VD_B_N        VD         B        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.01746447
+      VD_B_N        VD         B        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.01851831
+      VD_B_N        VD         B        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.01538217
+      VD_B_N        VD         B        0.0         M8_patient_clustered_GEE         2          2                1   -0.05296067
+      VD_B_N        VD         B        0.0        M9_single_process_IIW_GEE         2          2                1   -0.01537515
+     VD_SH_A        VD        SH        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.17241895
+     VD_SH_A        VD        SH        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.17272683
+     VD_SH_A        VD        SH        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.16927715
+     VD_SH_A        VD        SH        0.2         M8_patient_clustered_GEE         2          2                1    0.11882613
+     VD_SH_A        VD        SH        0.2        M9_single_process_IIW_GEE         2          2                1    0.16931561
+     VD_SH_N        VD        SH        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.00285097
+     VD_SH_N        VD        SH        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.00150028
+     VD_SH_N        VD        SH        0.0      M12_oracle_combined_IIW_GEE         2          2                1    0.00388006
+     VD_SH_N        VD        SH        0.0         M8_patient_clustered_GEE         2          2                1   -0.03069507
+     VD_SH_N        VD        SH        0.0        M9_single_process_IIW_GEE         2          2                1   -0.00194630
+      VS_B_A        VS         B        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.17569842
+      VS_B_A        VS         B        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.17718052
+      VS_B_A        VS         B        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.17116968
+      VS_B_A        VS         B        0.2         M8_patient_clustered_GEE         2          2                1    0.17860127
+      VS_B_A        VS         B        0.2        M9_single_process_IIW_GEE         2          2                1    0.17342636
+      VS_B_N        VS         B        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.02433318
+      VS_B_N        VS         B        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.02524992
+      VS_B_N        VS         B        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.02407899
+      VS_B_N        VS         B        0.0         M8_patient_clustered_GEE         2          2                1   -0.04969335
+      VS_B_N        VS         B        0.0        M9_single_process_IIW_GEE         2          2                1   -0.02654820
+     VS_SH_A        VS        SH        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.15923136
+     VS_SH_A        VS        SH        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.16044745
+     VS_SH_A        VS        SH        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.15976622
+     VS_SH_A        VS        SH        0.2         M8_patient_clustered_GEE         2          2                1    0.18426567
+     VS_SH_A        VS        SH        0.2        M9_single_process_IIW_GEE         2          2                1    0.16279359
+     VS_SH_N        VS        SH        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.00709508
+     VS_SH_N        VS        SH        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.00723995
+     VS_SH_N        VS        SH        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.00768009
+     VS_SH_N        VS        SH        0.0         M8_patient_clustered_GEE         2          2                1   -0.00868985
+     VS_SH_N        VS        SH        0.0        M9_single_process_IIW_GEE         2          2                1   -0.01075007
+        bias relative_bias_percent empirical_se mean_model_se model_to_empirical_se_ratio       rmse coverage_95 rejection_rate_005
+  0.00523812              2.619058  0.028712390     0.0269026                    0.936968 0.02096756         1.0                  1
+  0.00391180              1.955900  0.029015635     0.0268579                    0.925634 0.02088674         1.0                  1
+  0.00176911              0.884554  0.024538373     0.0268689                    1.094976 0.01744120         1.0                  1
+ -0.04436681            -22.183407  0.034082895     0.0321789                    0.944137 0.05048996         0.5                  1
+  0.00509101              2.545503  0.027782275     0.0274456                    0.987880 0.02029398         1.0                  1
+ -0.01746447                    NA  0.002599839     0.0282076                   10.849735 0.01756096         1.0                  0
+ -0.01851831                    NA  0.003303023     0.0281347                    8.517876 0.01866502         1.0                  0
+ -0.01538217                    NA  0.003869003     0.0278122                    7.188457 0.01562357         1.0                  0
+ -0.05296067                    NA  0.003505774     0.0314739                    8.977735 0.05301865         1.0                  0
+ -0.01537515                    NA  0.001390329     0.0280071                   20.144221 0.01540655         1.0                  0
+ -0.02758105            -13.790527  0.054400152     0.0260958                    0.479701 0.04733289         0.5                  1
+ -0.02727317            -13.636585  0.054747241     0.0260142                    0.475169 0.04735458         0.5                  1
+ -0.03072285            -15.361423  0.050664322     0.0259813                    0.512813 0.04719460         0.5                  1
+ -0.08117387            -40.586936  0.033053160     0.0319014                    0.965153 0.08447161         0.5                  1
+ -0.03068439            -15.342196  0.043106519     0.0266279                    0.617723 0.04325064         0.5                  1
+ -0.00285097                    NA  0.016603859     0.0270935                    1.631758 0.01208189         1.0                  0
+ -0.00150028                    NA  0.013730053     0.0271002                    1.973784 0.00982385         1.0                  0
+  0.00388006                    NA  0.013331432     0.0270488                    2.028950 0.01019404         1.0                  0
+ -0.03069507                    NA  0.027516568     0.0329199                    1.196365 0.03634237         1.0                  0
+ -0.00194630                    NA  0.018518422     0.0275503                    1.487724 0.01323836         1.0                  0
+ -0.02430158            -12.150790  0.001352050     0.0266072                   19.679129 0.02432038         1.0                  1
+ -0.02281948            -11.409738  0.000485931     0.0266345                   54.811380 0.02282206         1.0                  1
+ -0.02883032            -14.415161  0.005348649     0.0264379                    4.942904 0.02907734         1.0                  1
+ -0.02139873            -10.699366  0.027919915     0.0326020                    1.167698 0.02911471         1.0                  1
+ -0.02657364            -13.286819  0.004891750     0.0272327                    5.567073 0.02679781         1.0                  1
+ -0.02433318                    NA  0.034753282     0.0282686                    0.813408 0.03458322         1.0                  0
+ -0.02524992                    NA  0.032481755     0.0281622                    0.867016 0.03413343         1.0                  0
+ -0.02407899                    NA  0.033121718     0.0282282                    0.852257 0.03359050         1.0                  0
+ -0.04969335                    NA  0.000720964     0.0329307                   45.675854 0.04969596         1.0                  0
+ -0.02654820                    NA  0.034628288     0.0287793                    0.831092 0.03611601         1.0                  0
+ -0.04076864            -20.384321  0.019862681     0.0265641                    1.337389 0.04312013         0.5                  1
+ -0.03955255            -19.776276  0.018800029     0.0264943                    1.409268 0.04172679         0.5                  1
+ -0.04023378            -20.116890  0.016071213     0.0264228                    1.644109 0.04180788         1.0                  1
+ -0.01573433             -7.867167  0.001118438     0.0303892                   27.171112 0.01575420         1.0                  1
+ -0.03720641            -18.603206  0.018143683     0.0265878                    1.465402 0.03935624         1.0                  1
+ -0.00709508                    NA  0.036505196     0.0264588                    0.724794 0.02677041         1.0                  0
+ -0.00723995                    NA  0.034820671     0.0264449                    0.759459 0.02566430         1.0                  0
+ -0.00768009                    NA  0.032929216     0.0264907                    0.804475 0.02451837         1.0                  0
+ -0.00868985                    NA  0.035640485     0.0328218                    0.920913 0.02665775         1.0                  0
+ -0.01075007                    NA  0.046533272     0.0267722                    0.575334 0.03461556         1.0                  0
+ rejection_label mean_ci_width   mcse_bias mcse_coverage mcse_rejection minimum_estimate maximum_estimate
+           power      0.105458 0.020302726      0.000000              0       0.18493539      0.225540843
+           power      0.105283 0.020517153      0.000000              0       0.18339465      0.224428953
+           power      0.105326 0.017351250      0.000000              0       0.18441786      0.219120359
+           power      0.126141 0.024100246      0.353553              0       0.13153294      0.179733433
+           power      0.107587 0.019645035      0.000000              0       0.18544597      0.224736041
+    type_I_error      0.110574 0.001838364      0.000000              0      -0.01930284     -0.015626110
+    type_I_error      0.110288 0.002335590      0.000000              0      -0.02085390     -0.016182721
+    type_I_error      0.109024 0.002735798      0.000000              0      -0.01811797     -0.012646377
+    type_I_error      0.123378 0.002478957      0.000000              0      -0.05543962     -0.050481711
+    type_I_error      0.109788 0.000983111      0.000000              0      -0.01635826     -0.014392037
+           power      0.102295 0.038466716      0.353553              0       0.13395223      0.210885662
+           power      0.101976 0.038712145      0.353553              0       0.13401468      0.211438975
+           power      0.101847 0.035825086      0.353553              0       0.13345207      0.205102241
+           power      0.125053 0.023372114      0.353553              0       0.09545401      0.142198242
+           power      0.104381 0.030480912      0.353553              0       0.13883470      0.199796519
+    type_I_error      0.106206 0.011740702      0.000000              0      -0.01459167      0.008889735
+    type_I_error      0.106233 0.009708613      0.000000              0      -0.01120889      0.008208333
+    type_I_error      0.106031 0.009426746      0.000000              0      -0.00554668      0.013306808
+    type_I_error      0.129046 0.019457152      0.000000              0      -0.05015222     -0.011237920
+    type_I_error      0.107997 0.013094502      0.000000              0      -0.01504080      0.011148200
+           power      0.104300 0.000956044      0.000000              0       0.17474238      0.176654463
+           power      0.104407 0.000343605      0.000000              0       0.17683692      0.177524130
+           power      0.103636 0.003782066      0.000000              0       0.16738761      0.174951744
+           power      0.127800 0.019742361      0.000000              0       0.15885891      0.198343629
+           power      0.106752 0.003458989      0.000000              0       0.16996737      0.176885352
+    type_I_error      0.110813 0.024574281      0.000000              0      -0.04890746      0.000241101
+    type_I_error      0.110396 0.022968069      0.000000              0      -0.04821799     -0.002281855
+    type_I_error      0.110655 0.023420591      0.000000              0      -0.04749958     -0.000658397
+    type_I_error      0.129088 0.000509799      0.000000              0      -0.05020315     -0.049183549
+    type_I_error      0.112815 0.024485897      0.000000              0      -0.05103410     -0.002062302
+           power      0.104131 0.014045036      0.353553              0       0.14518632      0.173276395
+           power      0.103858 0.013293628      0.353553              0       0.14715382      0.173741075
+           power      0.103578 0.011364064      0.000000              0       0.14840216      0.171130284
+           power      0.119126 0.000790855      0.000000              0       0.18347481      0.185056521
+           power      0.104224 0.012829521      0.000000              0       0.14996407      0.175623109
+    type_I_error      0.103718 0.025813072      0.000000              0      -0.03290815      0.018717993
+    type_I_error      0.103664 0.024621932      0.000000              0      -0.03186188      0.017381984
+    type_I_error      0.103844 0.023284472      0.000000              0      -0.03096456      0.015604381
+    type_I_error      0.128661 0.025201629      0.000000              0      -0.03389148      0.016511777
+    type_I_error      0.104947 0.032903992      0.000000              0      -0.04365406      0.022153924
+
+STAGE 44 WEIGHT SUMMARY
+ scenario_id                           method attempted minimum_ess_fraction mean_ess_fraction maximum_raw_q99 mean_raw_q99
+      VD_B_A M10_separate_two_process_IIW_GEE         2             0.766415          0.768675         3.41954      3.40082
+      VD_B_A M11_combined_two_process_IIW_GEE         2             0.773419          0.776095         3.37397      3.33935
+      VD_B_A      M12_oracle_combined_IIW_GEE         2             0.761580          0.764397         3.58439      3.57592
+      VD_B_A        M9_single_process_IIW_GEE         2             0.790972          0.792582         3.24644      3.23369
+      VD_B_N M10_separate_two_process_IIW_GEE         2             0.760372          0.769007         3.43843      3.42719
+      VD_B_N M11_combined_two_process_IIW_GEE         2             0.768518          0.777343         3.36164      3.34180
+      VD_B_N      M12_oracle_combined_IIW_GEE         2             0.782298          0.788465         2.99088      2.96620
+      VD_B_N        M9_single_process_IIW_GEE         2             0.793229          0.801916         3.11397      3.10636
+     VD_SH_A M10_separate_two_process_IIW_GEE         2             0.779090          0.796395         3.37573      3.24326
+     VD_SH_A M11_combined_two_process_IIW_GEE         2             0.784036          0.802381         3.33098      3.17869
+     VD_SH_A      M12_oracle_combined_IIW_GEE         2             0.778518          0.787379         3.34588      3.25484
+     VD_SH_A        M9_single_process_IIW_GEE         2             0.819657          0.819971         3.03172      2.96778
+     VD_SH_N M10_separate_two_process_IIW_GEE         2             0.763718          0.764173         3.37979      3.37695
+     VD_SH_N M11_combined_two_process_IIW_GEE         2             0.769129          0.769730         3.33859      3.33516
+     VD_SH_N      M12_oracle_combined_IIW_GEE         2             0.777867          0.784921         2.92533      2.91981
+     VD_SH_N        M9_single_process_IIW_GEE         2             0.786301          0.799231         3.20685      3.10733
+      VS_B_A M10_separate_two_process_IIW_GEE         2             0.715285          0.728365         3.45959      3.35109
+      VS_B_A M11_combined_two_process_IIW_GEE         2             0.725279          0.739267         3.36008      3.26305
+      VS_B_A      M12_oracle_combined_IIW_GEE         2             0.729218          0.737433         3.11375      3.00533
+      VS_B_A        M9_single_process_IIW_GEE         2             0.747068          0.752505         3.18084      3.13835
+      VS_B_N M10_separate_two_process_IIW_GEE         2             0.719768          0.729934         3.38831      3.32218
+      VS_B_N M11_combined_two_process_IIW_GEE         2             0.727615          0.740206         3.33341      3.23988
+      VS_B_N      M12_oracle_combined_IIW_GEE         2             0.733882          0.735826         2.95141      2.94083
+      VS_B_N        M9_single_process_IIW_GEE         2             0.751512          0.751786         3.18462      3.17839
+     VS_SH_A M10_separate_two_process_IIW_GEE         2             0.754568          0.763326         3.08422      3.03452
+     VS_SH_A M11_combined_two_process_IIW_GEE         2             0.760145          0.769200         3.04905      2.99092
+     VS_SH_A      M12_oracle_combined_IIW_GEE         2             0.747847          0.755212         3.12903      3.00903
+     VS_SH_A        M9_single_process_IIW_GEE         2             0.784173          0.784780         2.91535      2.88455
+     VS_SH_N M10_separate_two_process_IIW_GEE         2             0.729941          0.739184         3.32929      3.25601
+     VS_SH_N M11_combined_two_process_IIW_GEE         2             0.738176          0.746304         3.25050      3.19450
+     VS_SH_N      M12_oracle_combined_IIW_GEE         2             0.748688          0.752479         2.89058      2.87250
+     VS_SH_N        M9_single_process_IIW_GEE         2             0.776103          0.776367         2.99195      2.96017
+ maximum_raw_weight mean_fraction_truncated
+           15.03742               0.0199663
+           15.03742               0.0199663
+           15.92096               0.0199663
+           10.62868               0.0199663
+           18.17940               0.0199433
+           18.17940               0.0199648
+           14.78982               0.0199648
+           13.02321               0.0199648
+           14.19196               0.0199870
+           14.19196               0.0199870
+           15.22493               0.0199870
+           16.89180               0.0199870
+           17.76877               0.0199602
+           17.76877               0.0199816
+           16.55787               0.0199816
+           12.37347               0.0199816
+           11.51685               0.0199715
+           11.51685               0.0199715
+           10.08322               0.0199715
+            8.79845               0.0199715
+            9.83537               0.0199683
+            9.41508               0.0199683
+            7.80779               0.0199683
+           10.27698               0.0199683
+            9.71341               0.0200153
+            9.71341               0.0200153
+           11.83223               0.0200153
+            7.70068               0.0200153
+           11.06150               0.0199646
+           11.06150               0.0199428
+           10.71979               0.0199646
+            9.85206               0.0199646
+
+STAGE 44 SEED AUDIT
+ expected_jobs unique_job_keys unique_seeds job_keys_unique seeds_unique
+            16              16           16            TRUE         TRUE
+
+Stage 44 decision: PASS 
+
+RUN 2/2: PARALLEL
+
+STAGE 44 VAR PERFORMANCE-PIPELINE PILOT
+Frozen DGM recalibration allowed: NO
+Performance estimates used for DGM selection: NO
+Scenarios: 8 
+Replicates per scenario: 2 
+Total planned datasets: 16 
+Patients per replicate: 500 
+Workers: 4 
+Already checkpointed: 0 
+Pending: 16 
+
+Stage 44 batch 1/2 -- jobs 8
+Stage 44 batch 2/2 -- jobs 8
+
+STAGE 44 TECHNICAL READINESS
+ scenario_id datasets_attempted datasets_passed dataset_pass_rate method_cells_present minimum_method_convergence
+      VD_B_A                  2               2                 1                    5                          1
+      VD_B_N                  2               2                 1                    5                          1
+     VD_SH_A                  2               2                 1                    5                          1
+     VD_SH_N                  2               2                 1                    5                          1
+      VS_B_A                  2               2                 1                    5                          1
+      VS_B_N                  2               2                 1                    5                          1
+     VS_SH_A                  2               2                 1                    5                          1
+     VS_SH_N                  2               2                 1                    5                          1
+ performance_metrics_complete scenario_pass
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+                         TRUE          TRUE
+
+STAGE 44 PERFORMANCE SUMMARY -- PILOT / DESCRIPTIVE ONLY
+ scenario_id mechanism structure true_beta3                           method attempted successful convergence_rate mean_estimate
+      VD_B_A        VD         B        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.20523812
+      VD_B_A        VD         B        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.20391180
+      VD_B_A        VD         B        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.20176911
+      VD_B_A        VD         B        0.2         M8_patient_clustered_GEE         2          2                1    0.15563319
+      VD_B_A        VD         B        0.2        M9_single_process_IIW_GEE         2          2                1    0.20509101
+      VD_B_N        VD         B        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.01746447
+      VD_B_N        VD         B        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.01851831
+      VD_B_N        VD         B        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.01538217
+      VD_B_N        VD         B        0.0         M8_patient_clustered_GEE         2          2                1   -0.05296067
+      VD_B_N        VD         B        0.0        M9_single_process_IIW_GEE         2          2                1   -0.01537515
+     VD_SH_A        VD        SH        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.17241895
+     VD_SH_A        VD        SH        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.17272683
+     VD_SH_A        VD        SH        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.16927715
+     VD_SH_A        VD        SH        0.2         M8_patient_clustered_GEE         2          2                1    0.11882613
+     VD_SH_A        VD        SH        0.2        M9_single_process_IIW_GEE         2          2                1    0.16931561
+     VD_SH_N        VD        SH        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.00285097
+     VD_SH_N        VD        SH        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.00150028
+     VD_SH_N        VD        SH        0.0      M12_oracle_combined_IIW_GEE         2          2                1    0.00388006
+     VD_SH_N        VD        SH        0.0         M8_patient_clustered_GEE         2          2                1   -0.03069507
+     VD_SH_N        VD        SH        0.0        M9_single_process_IIW_GEE         2          2                1   -0.00194630
+      VS_B_A        VS         B        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.17569842
+      VS_B_A        VS         B        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.17718052
+      VS_B_A        VS         B        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.17116968
+      VS_B_A        VS         B        0.2         M8_patient_clustered_GEE         2          2                1    0.17860127
+      VS_B_A        VS         B        0.2        M9_single_process_IIW_GEE         2          2                1    0.17342636
+      VS_B_N        VS         B        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.02433318
+      VS_B_N        VS         B        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.02524992
+      VS_B_N        VS         B        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.02407899
+      VS_B_N        VS         B        0.0         M8_patient_clustered_GEE         2          2                1   -0.04969335
+      VS_B_N        VS         B        0.0        M9_single_process_IIW_GEE         2          2                1   -0.02654820
+     VS_SH_A        VS        SH        0.2 M10_separate_two_process_IIW_GEE         2          2                1    0.15923136
+     VS_SH_A        VS        SH        0.2 M11_combined_two_process_IIW_GEE         2          2                1    0.16044745
+     VS_SH_A        VS        SH        0.2      M12_oracle_combined_IIW_GEE         2          2                1    0.15976622
+     VS_SH_A        VS        SH        0.2         M8_patient_clustered_GEE         2          2                1    0.18426567
+     VS_SH_A        VS        SH        0.2        M9_single_process_IIW_GEE         2          2                1    0.16279359
+     VS_SH_N        VS        SH        0.0 M10_separate_two_process_IIW_GEE         2          2                1   -0.00709508
+     VS_SH_N        VS        SH        0.0 M11_combined_two_process_IIW_GEE         2          2                1   -0.00723995
+     VS_SH_N        VS        SH        0.0      M12_oracle_combined_IIW_GEE         2          2                1   -0.00768009
+     VS_SH_N        VS        SH        0.0         M8_patient_clustered_GEE         2          2                1   -0.00868985
+     VS_SH_N        VS        SH        0.0        M9_single_process_IIW_GEE         2          2                1   -0.01075007
+        bias relative_bias_percent empirical_se mean_model_se model_to_empirical_se_ratio       rmse coverage_95 rejection_rate_005
+  0.00523812              2.619058  0.028712390     0.0269026                    0.936968 0.02096756         1.0                  1
+  0.00391180              1.955900  0.029015635     0.0268579                    0.925634 0.02088674         1.0                  1
+  0.00176911              0.884554  0.024538373     0.0268689                    1.094976 0.01744120         1.0                  1
+ -0.04436681            -22.183407  0.034082895     0.0321789                    0.944137 0.05048996         0.5                  1
+  0.00509101              2.545503  0.027782275     0.0274456                    0.987880 0.02029398         1.0                  1
+ -0.01746447                    NA  0.002599839     0.0282076                   10.849735 0.01756096         1.0                  0
+ -0.01851831                    NA  0.003303023     0.0281347                    8.517876 0.01866502         1.0                  0
+ -0.01538217                    NA  0.003869003     0.0278122                    7.188457 0.01562357         1.0                  0
+ -0.05296067                    NA  0.003505774     0.0314739                    8.977735 0.05301865         1.0                  0
+ -0.01537515                    NA  0.001390329     0.0280071                   20.144221 0.01540655         1.0                  0
+ -0.02758105            -13.790527  0.054400152     0.0260958                    0.479701 0.04733289         0.5                  1
+ -0.02727317            -13.636585  0.054747241     0.0260142                    0.475169 0.04735458         0.5                  1
+ -0.03072285            -15.361423  0.050664322     0.0259813                    0.512813 0.04719460         0.5                  1
+ -0.08117387            -40.586936  0.033053160     0.0319014                    0.965153 0.08447161         0.5                  1
+ -0.03068439            -15.342196  0.043106519     0.0266279                    0.617723 0.04325064         0.5                  1
+ -0.00285097                    NA  0.016603859     0.0270935                    1.631758 0.01208189         1.0                  0
+ -0.00150028                    NA  0.013730053     0.0271002                    1.973784 0.00982385         1.0                  0
+  0.00388006                    NA  0.013331432     0.0270488                    2.028950 0.01019404         1.0                  0
+ -0.03069507                    NA  0.027516568     0.0329199                    1.196365 0.03634237         1.0                  0
+ -0.00194630                    NA  0.018518422     0.0275503                    1.487724 0.01323836         1.0                  0
+ -0.02430158            -12.150790  0.001352050     0.0266072                   19.679129 0.02432038         1.0                  1
+ -0.02281948            -11.409738  0.000485931     0.0266345                   54.811380 0.02282206         1.0                  1
+ -0.02883032            -14.415161  0.005348649     0.0264379                    4.942904 0.02907734         1.0                  1
+ -0.02139873            -10.699366  0.027919915     0.0326020                    1.167698 0.02911471         1.0                  1
+ -0.02657364            -13.286819  0.004891750     0.0272327                    5.567073 0.02679781         1.0                  1
+ -0.02433318                    NA  0.034753282     0.0282686                    0.813408 0.03458322         1.0                  0
+ -0.02524992                    NA  0.032481755     0.0281622                    0.867016 0.03413343         1.0                  0
+ -0.02407899                    NA  0.033121718     0.0282282                    0.852257 0.03359050         1.0                  0
+ -0.04969335                    NA  0.000720964     0.0329307                   45.675854 0.04969596         1.0                  0
+ -0.02654820                    NA  0.034628288     0.0287793                    0.831092 0.03611601         1.0                  0
+ -0.04076864            -20.384321  0.019862681     0.0265641                    1.337389 0.04312013         0.5                  1
+ -0.03955255            -19.776276  0.018800029     0.0264943                    1.409268 0.04172679         0.5                  1
+ -0.04023378            -20.116890  0.016071213     0.0264228                    1.644109 0.04180788         1.0                  1
+ -0.01573433             -7.867167  0.001118438     0.0303892                   27.171112 0.01575420         1.0                  1
+ -0.03720641            -18.603206  0.018143683     0.0265878                    1.465402 0.03935624         1.0                  1
+ -0.00709508                    NA  0.036505196     0.0264588                    0.724794 0.02677041         1.0                  0
+ -0.00723995                    NA  0.034820671     0.0264449                    0.759459 0.02566430         1.0                  0
+ -0.00768009                    NA  0.032929216     0.0264907                    0.804475 0.02451837         1.0                  0
+ -0.00868985                    NA  0.035640485     0.0328218                    0.920913 0.02665775         1.0                  0
+ -0.01075007                    NA  0.046533272     0.0267722                    0.575334 0.03461556         1.0                  0
+ rejection_label mean_ci_width   mcse_bias mcse_coverage mcse_rejection minimum_estimate maximum_estimate
+           power      0.105458 0.020302726      0.000000              0       0.18493539      0.225540843
+           power      0.105283 0.020517153      0.000000              0       0.18339465      0.224428953
+           power      0.105326 0.017351250      0.000000              0       0.18441786      0.219120359
+           power      0.126141 0.024100246      0.353553              0       0.13153294      0.179733433
+           power      0.107587 0.019645035      0.000000              0       0.18544597      0.224736041
+    type_I_error      0.110574 0.001838364      0.000000              0      -0.01930284     -0.015626110
+    type_I_error      0.110288 0.002335590      0.000000              0      -0.02085390     -0.016182721
+    type_I_error      0.109024 0.002735798      0.000000              0      -0.01811797     -0.012646377
+    type_I_error      0.123378 0.002478957      0.000000              0      -0.05543962     -0.050481711
+    type_I_error      0.109788 0.000983111      0.000000              0      -0.01635826     -0.014392037
+           power      0.102295 0.038466716      0.353553              0       0.13395223      0.210885662
+           power      0.101976 0.038712145      0.353553              0       0.13401468      0.211438975
+           power      0.101847 0.035825086      0.353553              0       0.13345207      0.205102241
+           power      0.125053 0.023372114      0.353553              0       0.09545401      0.142198242
+           power      0.104381 0.030480912      0.353553              0       0.13883470      0.199796519
+    type_I_error      0.106206 0.011740702      0.000000              0      -0.01459167      0.008889735
+    type_I_error      0.106233 0.009708613      0.000000              0      -0.01120889      0.008208333
+    type_I_error      0.106031 0.009426746      0.000000              0      -0.00554668      0.013306808
+    type_I_error      0.129046 0.019457152      0.000000              0      -0.05015222     -0.011237920
+    type_I_error      0.107997 0.013094502      0.000000              0      -0.01504080      0.011148200
+           power      0.104300 0.000956044      0.000000              0       0.17474238      0.176654463
+           power      0.104407 0.000343605      0.000000              0       0.17683692      0.177524130
+           power      0.103636 0.003782066      0.000000              0       0.16738761      0.174951744
+           power      0.127800 0.019742361      0.000000              0       0.15885891      0.198343629
+           power      0.106752 0.003458989      0.000000              0       0.16996737      0.176885352
+    type_I_error      0.110813 0.024574281      0.000000              0      -0.04890746      0.000241101
+    type_I_error      0.110396 0.022968069      0.000000              0      -0.04821799     -0.002281855
+    type_I_error      0.110655 0.023420591      0.000000              0      -0.04749958     -0.000658397
+    type_I_error      0.129088 0.000509799      0.000000              0      -0.05020315     -0.049183549
+    type_I_error      0.112815 0.024485897      0.000000              0      -0.05103410     -0.002062302
+           power      0.104131 0.014045036      0.353553              0       0.14518632      0.173276395
+           power      0.103858 0.013293628      0.353553              0       0.14715382      0.173741075
+           power      0.103578 0.011364064      0.000000              0       0.14840216      0.171130284
+           power      0.119126 0.000790855      0.000000              0       0.18347481      0.185056521
+           power      0.104224 0.012829521      0.000000              0       0.14996407      0.175623109
+    type_I_error      0.103718 0.025813072      0.000000              0      -0.03290815      0.018717993
+    type_I_error      0.103664 0.024621932      0.000000              0      -0.03186188      0.017381984
+    type_I_error      0.103844 0.023284472      0.000000              0      -0.03096456      0.015604381
+    type_I_error      0.128661 0.025201629      0.000000              0      -0.03389148      0.016511777
+    type_I_error      0.104947 0.032903992      0.000000              0      -0.04365406      0.022153924
+
+STAGE 44 WEIGHT SUMMARY
+ scenario_id                           method attempted minimum_ess_fraction mean_ess_fraction maximum_raw_q99 mean_raw_q99
+      VD_B_A M10_separate_two_process_IIW_GEE         2             0.766415          0.768675         3.41954      3.40082
+      VD_B_A M11_combined_two_process_IIW_GEE         2             0.773419          0.776095         3.37397      3.33935
+      VD_B_A      M12_oracle_combined_IIW_GEE         2             0.761580          0.764397         3.58439      3.57592
+      VD_B_A        M9_single_process_IIW_GEE         2             0.790972          0.792582         3.24644      3.23369
+      VD_B_N M10_separate_two_process_IIW_GEE         2             0.760372          0.769007         3.43843      3.42719
+      VD_B_N M11_combined_two_process_IIW_GEE         2             0.768518          0.777343         3.36164      3.34180
+      VD_B_N      M12_oracle_combined_IIW_GEE         2             0.782298          0.788465         2.99088      2.96620
+      VD_B_N        M9_single_process_IIW_GEE         2             0.793229          0.801916         3.11397      3.10636
+     VD_SH_A M10_separate_two_process_IIW_GEE         2             0.779090          0.796395         3.37573      3.24326
+     VD_SH_A M11_combined_two_process_IIW_GEE         2             0.784036          0.802381         3.33098      3.17869
+     VD_SH_A      M12_oracle_combined_IIW_GEE         2             0.778518          0.787379         3.34588      3.25484
+     VD_SH_A        M9_single_process_IIW_GEE         2             0.819657          0.819971         3.03172      2.96778
+     VD_SH_N M10_separate_two_process_IIW_GEE         2             0.763718          0.764173         3.37979      3.37695
+     VD_SH_N M11_combined_two_process_IIW_GEE         2             0.769129          0.769730         3.33859      3.33516
+     VD_SH_N      M12_oracle_combined_IIW_GEE         2             0.777867          0.784921         2.92533      2.91981
+     VD_SH_N        M9_single_process_IIW_GEE         2             0.786301          0.799231         3.20685      3.10733
+      VS_B_A M10_separate_two_process_IIW_GEE         2             0.715285          0.728365         3.45959      3.35109
+      VS_B_A M11_combined_two_process_IIW_GEE         2             0.725279          0.739267         3.36008      3.26305
+      VS_B_A      M12_oracle_combined_IIW_GEE         2             0.729218          0.737433         3.11375      3.00533
+      VS_B_A        M9_single_process_IIW_GEE         2             0.747068          0.752505         3.18084      3.13835
+      VS_B_N M10_separate_two_process_IIW_GEE         2             0.719768          0.729934         3.38831      3.32218
+      VS_B_N M11_combined_two_process_IIW_GEE         2             0.727615          0.740206         3.33341      3.23988
+      VS_B_N      M12_oracle_combined_IIW_GEE         2             0.733882          0.735826         2.95141      2.94083
+      VS_B_N        M9_single_process_IIW_GEE         2             0.751512          0.751786         3.18462      3.17839
+     VS_SH_A M10_separate_two_process_IIW_GEE         2             0.754568          0.763326         3.08422      3.03452
+     VS_SH_A M11_combined_two_process_IIW_GEE         2             0.760145          0.769200         3.04905      2.99092
+     VS_SH_A      M12_oracle_combined_IIW_GEE         2             0.747847          0.755212         3.12903      3.00903
+     VS_SH_A        M9_single_process_IIW_GEE         2             0.784173          0.784780         2.91535      2.88455
+     VS_SH_N M10_separate_two_process_IIW_GEE         2             0.729941          0.739184         3.32929      3.25601
+     VS_SH_N M11_combined_two_process_IIW_GEE         2             0.738176          0.746304         3.25050      3.19450
+     VS_SH_N      M12_oracle_combined_IIW_GEE         2             0.748688          0.752479         2.89058      2.87250
+     VS_SH_N        M9_single_process_IIW_GEE         2             0.776103          0.776367         2.99195      2.96017
+ maximum_raw_weight mean_fraction_truncated
+           15.03742               0.0199663
+           15.03742               0.0199663
+           15.92096               0.0199663
+           10.62868               0.0199663
+           18.17940               0.0199433
+           18.17940               0.0199648
+           14.78982               0.0199648
+           13.02321               0.0199648
+           14.19196               0.0199870
+           14.19196               0.0199870
+           15.22493               0.0199870
+           16.89180               0.0199870
+           17.76877               0.0199602
+           17.76877               0.0199816
+           16.55787               0.0199816
+           12.37347               0.0199816
+           11.51685               0.0199715
+           11.51685               0.0199715
+           10.08322               0.0199715
+            8.79845               0.0199715
+            9.83537               0.0199683
+            9.41508               0.0199683
+            7.80779               0.0199683
+           10.27698               0.0199683
+            9.71341               0.0200153
+            9.71341               0.0200153
+           11.83223               0.0200153
+            7.70068               0.0200153
+           11.06150               0.0199646
+           11.06150               0.0199428
+           10.71979               0.0199646
+            9.85206               0.0199646
+
+STAGE 44 SEED AUDIT
+ expected_jobs unique_job_keys unique_seeds job_keys_unique seeds_unique
+            16              16           16            TRUE         TRUE
+
+Stage 44 decision: PASS 
+
+B5G1_ERROR
+V18 FAIL: serial/parallel deterministic equivalence failed for: comparison 

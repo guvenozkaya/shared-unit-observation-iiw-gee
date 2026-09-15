@@ -1,0 +1,3 @@
+"mechanism","scenarios","mean_m8_absolute_bias","mean_iiw_absolute_bias","mean_absolute_bias_reduction_percent","mean_m8_rmse","mean_iiw_rmse","mean_rmse_reduction_percent","mean_m8_coverage","mean_iiw_coverage"
+"Differential",4,0.0505649673241994,0.0106637892931091,78.775978025805,0.0599670462199446,0.0288448175033799,51.8167431284725,0.62725,0.9345625
+"Symmetric",4,0.00139980877234464,0.00215078393483355,-84.6438999382763,0.0321816543735872,0.0276348546235614,14.1106808719573,0.94225,0.9435

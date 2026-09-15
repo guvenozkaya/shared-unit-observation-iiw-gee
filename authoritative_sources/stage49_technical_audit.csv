@@ -1,0 +1,10 @@
+"check","pass"
+"stage48_completion_audit_all_true",TRUE
+"stage46_freeze_pass",TRUE
+"diagnostic_seed_subset_not_outcome_selected",TRUE
+"expected_oracle_variant_rows_present",TRUE
+"all_oracle_variant_fits_converged",TRUE
+"regenerated_frozen_M12_reproduces_Stage48_estimates",TRUE
+"regenerated_frozen_M12_reproduces_Stage48_SEs",TRUE
+"null_decomposition_has_20_cells",TRUE
+"dependency_snapshot_complete",TRUE

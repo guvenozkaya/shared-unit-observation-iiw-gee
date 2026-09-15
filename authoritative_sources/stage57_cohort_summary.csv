@@ -1,0 +1,3 @@
+"sensitivity_id","horizon_days","eligible_patients","eligible_eyes","baseline_rows","postbaseline_visits","bilateral_patients","bilateral_shared_only_patients","bilateral_hybrid_patients","shared_postbaseline_rows","eye_specific_postbaseline_rows","observed_mean_baseline_va"
+"PRIMARY_365_REFERENCE",365,1962,2612,2612,18046,650,305,345,5194,12852,60.9800918836141
+"S1_HORIZON",730,1964,2614,2614,27310,650,305,345,7754,19556,60.9785768936496

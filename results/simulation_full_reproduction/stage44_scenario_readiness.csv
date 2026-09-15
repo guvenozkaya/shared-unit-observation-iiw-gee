@@ -1,0 +1,9 @@
+"scenario_id","datasets_attempted","datasets_passed","dataset_pass_rate","method_cells_present","minimum_method_convergence","performance_metrics_complete","scenario_pass"
+"VD_B_A",1000,1000,1,5,1,TRUE,TRUE
+"VD_B_N",1000,1000,1,5,1,TRUE,TRUE
+"VD_SH_A",1000,1000,1,5,1,TRUE,TRUE
+"VD_SH_N",1000,1000,1,5,1,TRUE,TRUE
+"VS_B_A",1000,1000,1,5,1,TRUE,TRUE
+"VS_B_N",1000,1000,1,5,1,TRUE,TRUE
+"VS_SH_A",1000,1000,1,5,1,TRUE,TRUE
+"VS_SH_N",1000,1000,1,5,1,TRUE,TRUE

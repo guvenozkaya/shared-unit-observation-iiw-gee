@@ -1,0 +1,21 @@
+# Normalize text files for cross-platform reproducibility
+* text=auto
+*.R text eol=lf
+*.Rmd text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
+
+# Binary scientific/publication artifacts
+*.rds binary
+*.RData binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
