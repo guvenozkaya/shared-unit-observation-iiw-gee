@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Decomposing shared and unit-specific observation processes in inverse-intensity weighted GEE for correlated longitudinal outcomes: reproducibility code"
 version: 1.0.0
+date-released: 2026-09-15
+doi: "10.5281/zenodo.22774360"
+repository-code: "https://github.com/guvenozkaya/shared-unit-observation-iiw-gee"
 license: "MIT"
 type: software
 abstract: "R code and frozen reproducibility artifacts for a simulation study and real-data application evaluating inverse-intensity weighted generalized estimating equations with shared and unit-specific observation processes in correlated longitudinal data."

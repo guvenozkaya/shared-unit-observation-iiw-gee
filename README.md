@@ -1,5 +1,7 @@
 # shared-unit-observation-iiw-gee
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22774360.svg)](https://doi.org/10.5281/zenodo.22774360)
+
 Reproducibility repository scaffold for:
 
 **Decomposing shared and unit-specific observation processes in inverse-intensity weighted GEE for correlated longitudinal outcomes**
@@ -73,3 +75,12 @@ S5B and S6 are appended automatically.
 ## License
 
 The software code in this repository is released under the MIT License. See `LICENSE`.
+
+## Citation and archived release
+
+The frozen **v1.0.0** reproducibility release is archived permanently on Zenodo: [10.5281/zenodo.22774360](https://doi.org/10.5281/zenodo.22774360).
+
+GitHub repository: [guvenozkaya/shared-unit-observation-iiw-gee](https://github.com/guvenozkaya/shared-unit-observation-iiw-gee)  
+Frozen GitHub release: [v1.0.0](https://github.com/guvenozkaya/shared-unit-observation-iiw-gee/releases/tag/v1.0.0)
+
+The Zenodo DOI refers to the frozen v1.0.0 release. Later commits on the `main` branch may update documentation or metadata without altering that archived release.
