@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Decomposing shared and unit-specific observation processes in inverse-intensity weighted GEE for correlated longitudinal outcomes: reproducibility code"
+version: 1.0.0
+license: "MIT"
+type: software
+abstract: "R code and frozen reproducibility artifacts for a simulation study and real-data application evaluating inverse-intensity weighted generalized estimating equations with shared and unit-specific observation processes in correlated longitudinal data."
+authors:
+  - given-names: "Guven"
+    family-names: "Ozkaya"
+    affiliation: "Department of Biostatistics, Faculty of Medicine, Bursa Uludağ University, Bursa, Türkiye"
+    orcid: "https://orcid.org/0000-0003-0297-846X"
+keywords:
+  - biostatistics
+  - generalized estimating equations
+  - informative observation
+  - inverse-intensity weighting
+  - longitudinal data
+  - reproducible research
+  - simulation study
