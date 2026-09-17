@@ -1,0 +1,10 @@
+"check","pass"
+"8000_unique_jobs_completed",TRUE
+"8000_M10J_results_present",TRUE
+"8000_M10_comparator_results_present",TRUE
+"all_M10J_GEE_fits_converged",TRUE
+"all_M10_comparator_GEE_fits_converged",TRUE
+"all_key_M10J_results_finite",TRUE
+"M10J_hybrid_eye_formula_identity",TRUE
+"stage46_job_keys_exact",TRUE
+"frozen_inputs_unchanged",TRUE

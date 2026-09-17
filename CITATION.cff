@@ -1,8 +1,8 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Decomposing shared and unit-specific observation processes in inverse-intensity weighted GEE for correlated longitudinal outcomes: reproducibility code"
-version: 1.0.0
-date-released: 2026-09-15
+version: 1.1.0
+date-released: 2026-09-17
 doi: "10.5281/zenodo.22774360"
 repository-code: "https://github.com/guvenozkaya/shared-unit-observation-iiw-gee"
 license: "MIT"
@@ -11,7 +11,7 @@ abstract: "R code and frozen reproducibility artifacts for a simulation study an
 authors:
   - given-names: "Guven"
     family-names: "Ozkaya"
-    affiliation: "Department of Biostatistics, Faculty of Medicine, Bursa Uludağ University, Bursa, Türkiye"
+    affiliation: "Department of Biostatistics, Faculty of Medicine, Bursa UludaÄŸ University, Bursa, TÃ¼rkiye"
     orcid: "https://orcid.org/0000-0003-0297-846X"
 keywords:
   - biostatistics

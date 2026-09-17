@@ -84,3 +84,14 @@ GitHub repository: [guvenozkaya/shared-unit-observation-iiw-gee](https://github.
 Frozen GitHub release: [v1.0.0](https://github.com/guvenozkaya/shared-unit-observation-iiw-gee/releases/tag/v1.0.0)
 
 The Zenodo DOI refers to the frozen v1.0.0 release. Later commits on the `main` branch may update documentation or metadata without altering that archived release.
+
+## Post-freeze M10-J joint-route validation (v1.1.0)
+
+Version 1.1.0 adds a targeted post-freeze validation of the frozen conditional separate-process M10 formulation against an alternative joint-route formulation (M10-J). The validation reused the original eight frozen scenarios, 1000 replicates per scenario, Stage46 seeds, data-generating mechanisms, truncation and normalization rules, and outcome model; no recalibration was performed.
+
+All 8000 M10-J fits converged and all technical validation checks passed. Scenario-specific mean absolute paired estimate differences between M10-J and M10 ranged from 0.00010 to 0.00025, and the largest absolute difference in any replicate was 0.00115. Bias, RMSE, coverage, and type-I error were essentially unchanged.
+
+Reproducibility files:
+- scripts/09_run_M10J_joint_route_validation_8000.R
+- results/m10j_joint_route_validation_8000/
+

@@ -1,0 +1,15 @@
+validation_version=M10J_FULL8000_v1
+started_at=2026-09-16 00:01:29
+completed_at=2026-09-17 10:40:43
+repository_root=C:/Users/O/OneDrive/Desktop/shared-unit-observation-iiw-gee_scaffold
+n_patient=500
+scenario_count=8
+replicates_per_scenario=1000
+total_datasets=8000
+workers=4
+batch_size=8
+alpha=0.05
+ci_level=0.95
+formula_tolerance=1e-10
+frozen_stage48_stage49_modified=NO
+technical_status=PASS

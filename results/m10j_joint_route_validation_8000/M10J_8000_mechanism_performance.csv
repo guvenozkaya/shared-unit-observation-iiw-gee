@@ -1,0 +1,5 @@
+"mechanism","method","scenarios","mean_absolute_bias","mean_rmse","mean_coverage","max_type1_error","min_coverage"
+"VD","M10_conditional_separate_process",4,0.0108798974974222,0.028956471733692,0.9325,0.065,0.928
+"VS","M10_conditional_separate_process",4,0.00202729746978551,0.0276701494284027,0.94375,0.067,0.933
+"VD","M10J_joint_route_separate_process",4,0.0109844427362086,0.0289995174523358,0.932,0.067,0.927
+"VS","M10J_joint_route_separate_process",4,0.00195439229133934,0.0276743682434997,0.94425,0.067,0.933
