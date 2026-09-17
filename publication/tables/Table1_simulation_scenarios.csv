@@ -1,0 +1,10 @@
+﻿"Scenario","History dependence","Shared-encounter structure","Generating beta3","Gamma control","Gamma comparison"
+"VS_B_N","Symmetric","Baseline",0,0.6,0.6
+"VS_B_A","Symmetric","Baseline",0.2,0.6,0.6
+"VS_SH_N","Symmetric","High-shared",0,0.6,0.6
+"VS_SH_A","Symmetric","High-shared",0.2,0.6,0.6
+"VD_B_N","Differential","Baseline",0,0.3,0.75
+"VD_B_A","Differential","Baseline",0.2,0.3,0.75
+"VD_SH_N","Differential","High-shared",0,0.3,0.75
+"VD_SH_A","Differential","High-shared",0.2,0.3,0.75
+

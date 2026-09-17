@@ -1,0 +1,5 @@
+﻿Repository: C:/Users/O/ResearchProjects/shared-unit-observation-iiw-gee_v1_1_clean
+Timestamp: 2026-09-17T22:55:10.6207149+03:00
+Policy: publication-facing relabeling only; internal computational identifiers are preserved.
+Backup outside repository: C:\Users\O\AppData\Local\Temp\one_shot_label_harmonization_backups\shared-unit-observation-iiw-gee_v1_1_clean_20260917_225510
+Internal R/source code and authoritative_sources/results directories were not relabeled by this patch.

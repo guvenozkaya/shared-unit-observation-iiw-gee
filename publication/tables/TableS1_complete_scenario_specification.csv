@@ -1,0 +1,10 @@
+﻿"scenario_id","mechanism","structure","true_beta3","gamma_control","gamma_treatment","total_rate","parameter_source"
+"VS_B_N","VS","B",0,0.6,0.6,10.62,"Stage40_null_calibration"
+"VS_B_A","VS","B",0.2,0.6,0.6,11.8944,"Stage42_alternative_calibration"
+"VS_SH_N","VS","SH",0,0.6,0.6,10.692,"Stage40_null_calibration"
+"VS_SH_A","VS","SH",0.2,0.6,0.6,11.7612,"Stage42_alternative_calibration"
+"VD_B_N","VD","B",0,0.3,0.75,10.974,"Stage40_null_calibration"
+"VD_B_A","VD","B",0.2,0.3,0.75,12.0714,"Stage42_alternative_calibration"
+"VD_SH_N","VD","SH",0,0.3,0.75,10.89,"Stage40_null_calibration"
+"VD_SH_A","VD","SH",0.2,0.3,0.75,12.1968,"Stage42_alternative_calibration"
+

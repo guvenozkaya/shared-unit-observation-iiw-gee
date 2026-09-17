@@ -1,0 +1,7 @@
+internal_id,publication_label,description
+M8_patient_clustered_GEE,M1,Unweighted patient-clustered GEE
+M9_single_process_IIW_GEE,M2,Single-process IIW-GEE
+M10_separate_two_process_IIW_GEE,M3,Separate conditional two-process IIW-GEE
+M11_combined_two_process_IIW_GEE,M4,Combined any-route IIW-GEE
+M12_oracle_combined_IIW_GEE,M5,Oracle combined IIW-GEE
+M10-J,M3-J,Joint-route sensitivity corresponding to M3
